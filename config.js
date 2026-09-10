@@ -4,8 +4,47 @@
 // =============================================================================
 
 const STORE_CONFIG = {
-  "PRODUCTS": {},
-  "PRODUCT_ORDER": {},
+  "PRODUCTS": {
+    "1789029407700": {
+      "name": "Ensemble POLO",
+      "price": 3000,
+      "description": "منتج رفيع النوعية",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "Gray-black"
+      ],
+      "availableSizes": [
+        "S"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "Gray-black": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/rayan-dz/main/images/product-1789029407700-Gray-black-1789029569297-Messenger-creation-25516B0A-A522-42F1-9AB6-57299C553605.jpeg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-09-10T08:36:47.700Z",
+      "image": "https://raw.githubusercontent.com/one-wil/rayan-dz/main/images/product-1789029407700-1789029490713-Messenger-creation-25516B0A-A522-42F1-9AB6-57299C553605.jpeg",
+      "updatedAt": "2026-09-10T08:38:54.941Z"
+    }
+  },
+  "PRODUCT_ORDER": {
+    "1789029407700": 1
+  },
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
